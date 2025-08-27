@@ -5,6 +5,8 @@
 let numero;
 const numeroAleatorio = () => {
   numero = Math.floor(Math.random() * 50 + 1);
+  alert('Se creo un numero magico, Adivina el numero entre el 1 al 100 🪄')
+  divInput.classList.remove("d-none")
   console.log(numero);
 };
 
@@ -30,6 +32,7 @@ const obtenerNumero = ()=> {
 const comenzar = document.getElementById("comenzarBtn");
 const enviarBtn = document.getElementById('botonEnviar')
 const inputNumero = document.getElementById('inputNumero')
+const divInput = document.getElementById('divInput')
 
 //eventos
 comenzar.addEventListener("click", numeroAleatorio);

@@ -1,4 +1,10 @@
-
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
 
     .pixel-btn {
       font-family: 'Press Start 2P', cursive;

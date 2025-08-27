@@ -16,21 +16,17 @@
   </head>
   <body>
     <header></header>
-    <main class="container">
+    <main>
       <div class="container">
-        <h1 class="text-center">Adivina el numero magico</h1>
-
-        <button
-          id="comenzarBtn"
-          class="btn btn-primary mt-3"
-        >
+        <h1 class="text-center mt-2">Adivina el numero magico</h1>
+        <button id="comenzarBtn" class="btn btn-primary mt-3 pixel-btn">
           Comenzar el juego
         </button>
-        <div>
+        <div class="d-none" id="divInput">
           <input
             type="number"
             id="inputNumero"
-            class="form-control mb-3"
+            class="form-control my-3"
             placeholder="Ingresá un número"
           />
           <button id="botonEnviar" class="btn btn-success">Enviar</button>
